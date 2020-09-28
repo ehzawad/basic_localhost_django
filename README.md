@@ -15,4 +15,4 @@ python3 manage.py migrate
 python3 manage.py runserver
 
 ```
-#### depend on your system configuration tho
+#### All somewhat depend on your system configuration tho
