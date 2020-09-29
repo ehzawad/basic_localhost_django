@@ -30,6 +30,14 @@ locust -f locusfile.py --host http://127.0.0.1:8000
 
 ````
 
+### locust run headless
+```bash
+ locust -f locustfile.py --headless -u 1000 -r 100
+ 
+ it is possible to set a time limit too
+ locust -f --headless -u 1000 -r 100 --run-time 1h30m
+```
+
 ###### side note: that was a Django localhost
 
 #### All somewhat depend on your system configuration tho
